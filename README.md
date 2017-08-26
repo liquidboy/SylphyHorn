@@ -8,6 +8,7 @@ This app is Windows Desktop application running on .NET Framework, however built
 ## JOSE'S UPDATES 
 
 * convert SylpHorn.Core Portable library to a .NETStandard 2.0 library
+    - this involved referencing a .NETStandard 2.0 version of MetroTrilithon https://github.com/liquidboy/MetroTrilithon
 * upgrade Sylphorn WPF app to 4.7x so it can reference "Netstandard 2.0" libraries (above)
 * requires VS17 preview (15.4) with UWP + .NETStandard 2.0 support
 
