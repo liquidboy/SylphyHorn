@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.26823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SylphyHorn", "SylphyHorn\SylphyHorn.csproj", "{5B1F3C87-DE54-4BFD-86C9-87181F7FDC2D}"
 EndProject
@@ -10,8 +10,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualDesktop", "VirtualDesktop\source\VirtualDesktop\VirtualDesktop.csproj", "{AB848ECD-76AA-41C0-B63D-86A8591B25AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualDesktop.WPF", "VirtualDesktop\source\VirtualDesktop.WPF\VirtualDesktop.WPF.csproj", "{9DD597C6-065A-4764-A96C-1B18C4EDED78}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SylphyHorn.Core", "SylphyHorn.Core\SylphyHorn.Core.csproj", "{9F0EB092-DDFC-492E-9266-EF208C8E4D83}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{2D769EB8-8EE0-4E2A-A7B4-1555C0881663}"
 	ProjectSection(SolutionItems) = preProject
@@ -29,6 +27,8 @@ Project("{365BE41E-7993-430D-A5E6-1381A54BC077}") = "SylphyHorn.Debugging", "Syl
 	ProjectSection(ProjectDependencies) = postProject
 		{5B1F3C87-DE54-4BFD-86C9-87181F7FDC2D} = {5B1F3C87-DE54-4BFD-86C9-87181F7FDC2D}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SylphyHorn.Core", "SylphyHorn.Core\SylphyHorn.Core.csproj", "{CDDA9A12-2D8A-4036-9F36-236262DF696B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -146,38 +146,6 @@ Global
 		{9DD597C6-065A-4764-A96C-1B18C4EDED78}.Release|x64.Build.0 = Release|x64
 		{9DD597C6-065A-4764-A96C-1B18C4EDED78}.Release|x86.ActiveCfg = Release|x64
 		{9DD597C6-065A-4764-A96C-1B18C4EDED78}.Release|x86.Build.0 = Release|x64
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug (AppX)|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug (AppX)|Any CPU.Build.0 = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug (AppX)|ARM.ActiveCfg = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug (AppX)|ARM.Build.0 = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug (AppX)|x64.ActiveCfg = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug (AppX)|x64.Build.0 = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug (AppX)|x86.ActiveCfg = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug (AppX)|x86.Build.0 = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug|ARM.Build.0 = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug|x64.Build.0 = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Debug|x86.Build.0 = Debug|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release (AppX)|Any CPU.ActiveCfg = Release|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release (AppX)|Any CPU.Build.0 = Release|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release (AppX)|ARM.ActiveCfg = Release (AppX)|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release (AppX)|ARM.Build.0 = Release (AppX)|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release (AppX)|x64.ActiveCfg = Release (AppX)|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release (AppX)|x64.Build.0 = Release (AppX)|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release (AppX)|x86.ActiveCfg = Release (AppX)|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release (AppX)|x86.Build.0 = Release (AppX)|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release|ARM.ActiveCfg = Release|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release|ARM.Build.0 = Release|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release|x64.ActiveCfg = Release|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release|x64.Build.0 = Release|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release|x86.ActiveCfg = Release|Any CPU
-		{9F0EB092-DDFC-492E-9266-EF208C8E4D83}.Release|x86.Build.0 = Release|Any CPU
 		{0076FD7F-5286-4CC1-B57C-721EBCEE8AA3}.Debug (AppX)|Any CPU.ActiveCfg = Debug|Any CPU
 		{0076FD7F-5286-4CC1-B57C-721EBCEE8AA3}.Debug (AppX)|Any CPU.Build.0 = Debug|Any CPU
 		{0076FD7F-5286-4CC1-B57C-721EBCEE8AA3}.Debug (AppX)|Any CPU.Deploy.0 = Debug|Any CPU
@@ -220,6 +188,38 @@ Global
 		{0076FD7F-5286-4CC1-B57C-721EBCEE8AA3}.Release|x86.ActiveCfg = Release|x86
 		{0076FD7F-5286-4CC1-B57C-721EBCEE8AA3}.Release|x86.Build.0 = Release|x86
 		{0076FD7F-5286-4CC1-B57C-721EBCEE8AA3}.Release|x86.Deploy.0 = Release|x86
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug (AppX)|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug (AppX)|Any CPU.Build.0 = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug (AppX)|ARM.ActiveCfg = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug (AppX)|ARM.Build.0 = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug (AppX)|x64.ActiveCfg = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug (AppX)|x64.Build.0 = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug (AppX)|x86.ActiveCfg = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug (AppX)|x86.Build.0 = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug|x64.Build.0 = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Debug|x86.Build.0 = Debug|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release (AppX)|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release (AppX)|Any CPU.Build.0 = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release (AppX)|ARM.ActiveCfg = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release (AppX)|ARM.Build.0 = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release (AppX)|x64.ActiveCfg = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release (AppX)|x64.Build.0 = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release (AppX)|x86.ActiveCfg = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release (AppX)|x86.Build.0 = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release|ARM.Build.0 = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release|x64.ActiveCfg = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release|x64.Build.0 = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release|x86.ActiveCfg = Release|Any CPU
+		{CDDA9A12-2D8A-4036-9F36-236262DF696B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -227,5 +227,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AB848ECD-76AA-41C0-B63D-86A8591B25AA} = {65847316-DFF7-497E-8542-B1F5E75803A1}
 		{9DD597C6-065A-4764-A96C-1B18C4EDED78} = {65847316-DFF7-497E-8542-B1F5E75803A1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2E882B6-34B5-4321-A73A-635FB823DB9F}
 	EndGlobalSection
 EndGlobal

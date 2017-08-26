@@ -329,10 +329,6 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SylphyHorn.Core\SylphyHorn.Core.csproj">
-      <Project>{9f0eb092-ddfc-492e-9266-ef208c8e4d83}</Project>
-      <Name>SylphyHorn.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\VirtualDesktop\source\VirtualDesktop.WPF\VirtualDesktop.WPF.csproj">
       <Project>{9dd597c6-065a-4764-a96c-1b18c4eded78}</Project>
       <Name>VirtualDesktop.WPF</Name>
