@@ -1,4 +1,0 @@
-[submodule "source/VirtualDesktop2"]
-	path = source/VirtualDesktop2
-	url = https://github.com/liquidboy/VirtualDesktop.git
-	branch = remotes/origin/develop
