@@ -213,6 +213,9 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="VirtualDesktop, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\VirtualDesktop.Standard.1.0.1\lib\netstandard2.0\VirtualDesktop.dll</HintPath>
+    </Reference>
     <Reference Include="Windows.ApplicationModel" />
     <Reference Include="Windows.Foundation" />
     <Reference Include="Windows.System" />

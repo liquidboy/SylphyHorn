@@ -15,7 +15,7 @@ namespace SylphyHorn.UI
 		protected override void OnContentRendered(EventArgs e)
 		{
 			base.OnContentRendered(e);
-			this.Pin();
+			// this.Pin();
 		}
 	}
 }
