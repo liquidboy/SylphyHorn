@@ -5,6 +5,11 @@ Provides global hotkeys, switching notification, change background and several f
 
 This app is Windows Desktop application running on .NET Framework, however built using the Desktop Bridge and published in Windows Store as UWP application.
 
+## JOSE'S UPDATES 
+
+* convert SylpHorn.Core Portable library to a .NETStandard 2.0 library
+* upgrade Sylphorn WPF app to 4.7x so it can reference "Netstandard 2.0" libraries (above)
+* requires VS17 preview (15.4) with UWP + .NETStandard 2.0 support
 
 ## Installations
 
