@@ -1,6 +1,8 @@
-Jose Fajardo - 
+Jose Fajardo
+============
 * convert SylpHorn.Core Portable library to a .NETStandard 2.0 library
     - this involved referencing a .NETStandard 2.0 version of MetroTrilithon https://github.com/liquidboy/MetroTrilithon
+    - this involved referencing a .NETStandard 2.0 version of StatefulModel https://github.com/liquidboy/StatefulModel
 * upgrade Sylphorn WPF app to 4.7x so it can reference "Netstandard 2.0" libraries (above)
 * requires VS17 preview (15.4) with UWP + .NETStandard 2.0 support
 
