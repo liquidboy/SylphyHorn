@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>SylphyHorn.Core.Standard</PackageId>
+    <Authors>liquidboy, Grabacr07</Authors>
+    <Description>Virtual Desktop Tools for Windows 10</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>SylphyHorn.Core.Standard</Product>
   </PropertyGroup>
 
   <ItemGroup>
